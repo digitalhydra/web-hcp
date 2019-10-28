@@ -14,6 +14,9 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      
+      primary: '#00969F',
+      secondary: '#4A4A4A',
 
       gray: {
         100: '#f7fafc',
@@ -310,6 +313,8 @@ module.exports = {
       ...theme('spacing'),
       full: '100%',
       screen: '100vh',
+      banner: '120px',
+      internal: '800px'
     }),
     inset: {
       '0': '0',

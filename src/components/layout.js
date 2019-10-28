@@ -6,19 +6,19 @@ import Footer from "./footer";
 import SEO from './seo'
 import "../css/style.css";
 
-const Layout = ({ className, headerClass, bodyClass, children, ...props }) => {
-  bodyClass = bodyClass || "container mx-auto px-6 md:px-10 lg:px-16";
+const Layout = ({ headerClass, children, title, isInternal }) => {
+  
   return (
-    <div className={className} {...props}>
-      <SEO/>
+    <>
+      <SEO title={title}/>
       <Helmet>
-        <body className="font-sans antialiased" />
+        <body className="font-sans antialiased bg-gray-100" />
       </Helmet>
 
-      <Header className={headerClass} />
-      <div className={bodyClass}>{children}</div>
+      <Header className={headerClass} isInternal={isInternal} />
+      {children}
       <Footer />
-    </div>
+    </>
   );
 };
 

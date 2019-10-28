@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
-import service_img from "../images/undraw_businesswoman_pc12.svg";
 import SEO from "../components/seo";
 
 const Service = ({ title, url, children }) => {
@@ -27,7 +26,7 @@ const Services = ({ data }) => {
 
       <div
         className="min-h-screen pt-24 sm:pt-32 md:pt-64 -mt-12 sm:-mt-16 md:-mt-24 lg:-mt-28 mb-20 bg-size-5/6 md:bg-size-4/5 lg:bg-size-2/3 bg-right-top bg-no-repeat flex flex-col items-center"
-        style={{ backgroundImage: `url(${service_img})` }}
+        
       >
         <div className="container w-3/4 md:w-1/2 mt-20 font-serif font-hairline self-start">
           <h1 className="text-4xl md:text-5xl text-indigo-700 px-2">
@@ -51,23 +50,23 @@ const Services = ({ data }) => {
   );
 };
 
-export const query = graphql`
-  query ServicesQuery {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/services/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            path
-          }
-          excerpt
-        }
-      }
-    }
-  }
-`;
+// export const query = graphql`
+//   query HomeImage {
+//     allMarkdownRemark(
+//       filter: { fileAbsolutePath: { regex: "/content/services/" } }
+//       sort: { fields: [frontmatter___date], order: DESC }
+//     ) {
+//       edges {
+//         node {
+//           frontmatter {
+//             title
+//             path
+//           }
+//           excerpt
+//         }
+//       }
+//     }
+//   }
+// `;
 
 export default Services;

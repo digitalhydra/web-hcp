@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Tailwind Serif`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@windedge`
+    title: `Holy Cupcakes Pasteleria`,
+    description: `Diseño de pasteles y mesas dulces`,
+    author: `@digitalhydra`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,11 +21,41 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content`,
+        path: `${__dirname}/content/services`,
         name: 'services'
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/content/recetas`,
+        name: 'recetas',
+        type: 'recetas'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images'
+      }
+    },
     'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow noopener noreferrer external",
+            },
+          },
+        ]
+      }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     'gatsby-plugin-postcss',
@@ -36,6 +66,14 @@ module.exports = {
         purgeOnly: ["src/css/style.css"]
       }
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.holycupcakes.co',
+        // sitemap: 'https://www.drupalconsole.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ]
 };
