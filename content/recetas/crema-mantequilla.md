@@ -2,17 +2,15 @@
 path: '/recetas/crema-mantequilla'
 title: 'Crema de mantequilla'
 date: 2019-10-18T12:33:46+10:00
-image: bg-home.jpg
+image: crema-mantequilla.jpg
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+## Ingredientes:
+- 500gr de azúcar glass
+- 330 de mantequilla
+- 1/4 de taza de leche
+- 1/2 cdita de vainilla.
 
-Ingredientes:
-- ¼ de taza de agua filtrada.
-- 1 ¼ cucharadas de gelatina sin sabor.
-- 1 cucharada de glicerina.
-- ½ taza de glucosa.
-- 1 cucharada de esencia al gusto.
-- 900 g de azúcar pulverizada cernida.
+## Instrucciones
+
+Empezamos batiendo la mantequilla a temperatura ambiente a velocidad media, en un bol cernimos el azúcar y lo incorporamos poco a poco a la mantequilla, agregamos la leche a temperatura ambiente y la vainilla y continuamos batiendo hasta obtener una consistencia muy suave y un color blanco.

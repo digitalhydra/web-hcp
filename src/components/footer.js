@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <div className="relative z-10 w-full px-8 py-4 text-secondary bg-pink-200 flex flex-col md:flex-row justify-between items-start md:items-center shadow-md">
-        <div className="flex-initial text-lg font-semibold">Holy Cupcakes Pasteleria ©</div>
+        <div className="flex-initial text-lg font-semibold font-serif italic">Holy Cupcakes Pasteleria ©</div>
         <div>
           <ul className="flex flex-col md:flex-row text-sm -mx-3 font-medium items-center">
           <li className="mx-3">Siguenos:</li>
@@ -17,8 +17,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full px-8 py-2 text-white text-xs font-light bg-primary flex flex-col sm:flex-row justify-between items-start md:items-center">
-        <div className="w-full md:w-1/2 flex items-center">
+      <div className="w-full px-8 py-2 text-white text-xs font-light bg-primary flex flex-wrap justify-between items-start md:items-center">
+        <div className="w-full lg:w-1/2 flex items-center">
           <strong className="font-bold">WhatsApp: </strong>
           <a className="flex items-center ml-3" href="https://api.whatsapp.com/send?phone=573016989495&text=&source=&data=#"><FaWhatsapp /> 301 698 9495</a>
           <strong className="ml-3 font-bold"> Telefono: </strong>
@@ -33,8 +33,8 @@ const Footer = () => {
           <Link to="/recetas" className="hover:underline ml-3">
             Recetas
           </Link>
-          <Link to="/recetas" className="hover:underline ml-3">
-            Recetas
+          <Link to="/cursos" className="hover:underline ml-3">
+            Cursos
           </Link>
         </div>
       </div>

@@ -19,7 +19,6 @@ const FluidImageProvider = ({src, className}) => {
   `);
 console.log(data.allImageSharp.nodes, src);
   const image = _find(data.allImageSharp.nodes, (node)=>node.fluid.originalName===src);
-    console.log(image);
   return (
     <Img className={className} fluid={image.fluid} />
   );

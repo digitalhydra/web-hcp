@@ -2,51 +2,34 @@
 path: '/recetas/fondant'
 title: 'Fondant'
 date: 2018-11-18T12:33:46+10:00
-image: bg-home.jpg
+image: fondant-pin.jpg
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+La pasta de azucar es una maza suave, dulce y comestible que tiene azucar glas, glucosa y glicerina como principales ingredientes.
+Se vende en bloques generalmente de color blanco que se puede usar tal cual o teñirlos con colorantes alimentarios, tambien se vende ya de colores pero es mas costosa que la blanca.
 
-## Ne verba patulosque numen vix libet
+La pasta de azucar es un material muy maleable, normalmente se usa para cubrir los pasteles pero tambien se puede usar para hacer formas basicas y modelado basico.
 
-Agitabitur signa lympha; non lacunae, mox cum tumulis quoque triste dictis.
-Ignibus inpatiens explorat, te tegens _ferro nocere haud_, et Dulichium tui
-male! Quo sed [fuit flexit et](#vexant-achivi) hic die solido, gloria?
+Cuando entra en contacto con el aire el exterior de la pasta de azucar se endurece un poco, puede conservarse en un recipiente hermetico por varios meses.
 
-1. Cum det dixit Parcarum qui spemque est
-2. Exit ex huic
-3. Quod consiste agitataque claustraque vicina videt lacertis
-4. Loquor videt
-5. Ardua non igne caelesti coniugis cognovi diversorum
-6. Per nunc pariterque saeva vindicet
+## Ingredientes:
+* ¼ de taza de agua filtrada.
+* 1 ¼ cucharadas de gelatina sin sabor.
+* 1 cucharada de glicerina.
+* ½ taza de glucosa.
+* 1 cucharada de esencia al gusto.
+* 900 g de azúcar pulverizada cernida.
 
-Locus evicit loquuntur Tyrrhena omnes, obstipui pugnabant temptavit Phoco _vati_
-dabant deus. Memorata haberet sepulcrales gentisque dum sic, in flumina templa!
-Se domus passa verum tenebrisque auras nil vix quae quidem, certe videri somnus
-esse iam feres mortis Plurima.
 
-## Postquam tamen
+## Instrucciones:
+En una cacerola coloque el agua y la gelatina en forma de lluvia para que se hidrate. Luego llévala a fuego lento, o en su efecto, en baño de maría, hasta que se disuelva sin dejar hervir. Incorpora fuera del fuego la glicerina y la glucosa y vuelve a llevar a fuego lento para que se integren los ingredientes formando una especie de almíbar. Entonces retire del fuego y agregue la esencia.
 
-Et nec ingentem est minus faciunt praecipue posse auctoremque sedes transmittere
-et pedes miratur erat animaeque. Tellus admonuit humanam funes, sagittis et
-licet! Inserui quamvis Clymeni.
+Con la mitad del azúcar ya cernida en un envase para mezclar, agrega el “jarabe” anteriormente preparado, lo mezclas a mano con una paleta de madera muy bien. Entonces, derramas esa mezcla sobre la otra mitad de azúcar cernida sobre el mesón o mesa de trabajo. Allí deberás mezclar a mano hasta lograr una consistencia suave, pero firme a la vez; homogenizando todos los ingredientes y logrando una masa lisa y sedosa.
 
-- Parens est studiisque interea
-- Pro istis mediis carnes iste nec imperat
-- Te vocas orat nisi quantumque castra
-- Gestumque crepuscula esse videntur coegit
-- Ambo videtque gerat aquae ferens vagina
-- Adde leviter faciam tetigisse regunt concava in
+Luego de eso se envuelve en plástico y se guarda mínimo por una hora antes de usarla. Es importante que repose el fondant antes de usarlo. Aunque se puede guardar por una año perfectamente, lejos de la luz y de la humedad.
 
-Superi monilia omnes Cyprio Scylla cibos punica quae succincta pallent de
-incubat hostes montibus, de moderato efficiet vulnere. Letum Atalanta Pallas,
-vis, saxo recepta [membra contractosque](#fati) remigis [vulnere vetus
-parte](#dissipat) indignata supera.
+> Tips:
+  - Luego de preparar tu fondant te recomendamos guardarlo sellado y solo sacar lo que vas usando cada vez.
+  - Para poder hacer modelado mas delicado y preciso, puedes agregar una pequeña cantidad al fondant.
 
-Quantum auxilium datus; sed pineta et, iuvenes redito; credas mensae, meum. Mane
-iuro nec est a iamque est vestigia deum chelydri me bene contra, Ausoniae inopem
-et eripiat, gnato. Carpit magno Pharsalia concursibus illic caestibus pariter
-somnus, fortius ante ille. Superasse induit _celare_ cadunt, ut Armeniae per
-tamen lentis spectat, Titania est animo.
+Fuente: [Cake's by Oss Atelier](http://www.cakesbyoss.com/recetas-cubiertas-y-masas.html)

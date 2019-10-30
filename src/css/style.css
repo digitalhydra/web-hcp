@@ -94,6 +94,10 @@
   transform: translateY(-1px);
 }
 
+.hover\:-translate-2:hover {
+  transform: translateY(-4px);
+}
+
 .skew-y-5 {
   -webkit-transform: skewY(5deg);
   transform: skewY(5deg);

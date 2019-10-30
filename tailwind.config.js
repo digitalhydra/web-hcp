@@ -256,6 +256,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
+        'Open Sans',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -270,7 +271,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
-        'Georgia',
+        'Noto Serif TC',
         'Cambria',
         '"Times New Roman"',
         'Times',
@@ -314,7 +315,8 @@ module.exports = {
       full: '100%',
       screen: '100vh',
       banner: '120px',
-      internal: '800px'
+      internal: '800px',
+      item: '300px'
     }),
     inset: {
       '0': '0',

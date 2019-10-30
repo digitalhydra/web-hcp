@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Holy Cupcakes Pasteleria`,
     description: `Diseño de pasteles y mesas dulces`,
-    author: `@digitalhydra`
+    author: `@digitalhydra`,
+    siteUrl: 'https://holycupcakes.co'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -74,6 +75,22 @@ module.exports = {
         // sitemap: 'https://www.drupalconsole.com/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Noto Serif TC`,
+            subsets: [`latin`],
+            variants: ['300', `400`, `700`]
+          },
+          {
+            family: `Open Sans`,
+            variants: [`400`, `700`]
+          },
+        ],
+      },
     },
   ]
 };

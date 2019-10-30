@@ -25,18 +25,18 @@ function Index({data}) {
                   <p className="font-sans text-2xl text-primary">Productos / Tamaños / Pagos</p>
                 </li>
                 <li className="mb-3">
-                  <Link to="/talleres" className="text-4xl font-bold text-secondary hover:underline">Cursos</Link>
+                  <Link to="/cursos" className="text-4xl font-bold text-secondary hover:underline">Cursos</Link>
                   <p className="font-sans text-2xl text-primary">Clases maestras / Talleres</p>
                 </li>
                 <li className="mb-3">
                   <Link to="/recetas" className="text-4xl font-bold text-secondary hover:underline">Recetas</Link>
                   <p className="font-sans text-2xl text-primary">Para talleres y mas</p>
                 </li>
-                <li className="mb-3">
+                <li className="mb-3 hidden">
                   <Link to="/faq" className="text-4xl font-bold text-secondary hover:underline">Preguntas</Link>
                   <p className="font-sans text-2xl text-primary">Frecuentes</p>
                 </li>
-                <li className="mb-0">
+                <li className="mb-0 hidden">
                   <Link to="/contacto" className="text-4xl font-bold text-secondary hover:underline">Contacto</Link>
                 </li>
               </ul>

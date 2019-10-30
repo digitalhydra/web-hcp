@@ -18,8 +18,9 @@ const Header = ({ className, isInternal }) => {
           </Link>}
           <p className={`ml-3 text-${isInternal?'primary':'white'} font-serif font-bold text-lg font-thin italic leading-tight`}>
             <span className="text-sm">por</span> <br />
-            Alejandra <br />
+            <Link to="/alejandra-diaz" className="hover:underline">Alejandra <br />
             Diaz
+            </Link>
           </p>
         </div>
 
@@ -44,8 +45,8 @@ const Header = ({ className, isInternal }) => {
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/cotizaciones">Cotizaciones</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/cursos">Cursos</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/recetas">Recetas</Link>
-          <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/faq">Preguntas</Link>
-          <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/contact">Contacto</Link>
+          <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3 hidden" to="/faq">Preguntas</Link>
+          <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3 hidden" to="/contact">Contacto</Link>
         </div>}
       </div>
     </div>
