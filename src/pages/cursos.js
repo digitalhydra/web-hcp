@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+
 import Layout from "../components/layout";
 import PageBanner from "../components/page-banner";
 import { FaWhatsapp } from "react-icons/fa";
@@ -21,6 +21,10 @@ const Recetas = () => {
             </div>
             <div id="productos" className="text-2xl mb-8">
               <div className="flex flex-wrap items-center justify-center">
+                <a href="/downloads/galleteritos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
+                  <ImageProvider src="curso-galleteritos.png" className="h-full rounded" />
+                  <h3 className="font-bold font-serif text-3xl text-center">Taller Galleteritos</h3>
+                </a>
                 <div className="w-full md:w-1/2 lg:w-1/2 p-4">
                   <ImageProvider src="taller-conejo.jpg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Conejo</h3>
