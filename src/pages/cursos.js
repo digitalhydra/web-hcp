@@ -21,6 +21,10 @@ const Recetas = () => {
             </div>
             <div id="productos" className="text-2xl mb-8">
               <div className="flex flex-wrap items-center justify-center">
+                <a href="/downloads/curso-basico-fondant-navidad.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
+                  <ImageProvider src="curso-basico-fondant-navidad.png" className="h-full rounded" />
+                  <h3 className="font-bold font-serif text-3xl text-center">Curso basico de fondant, tema Navidad</h3>
+                </a>
                 <a href="/downloads/galleteritos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
                   <ImageProvider src="curso-galleteritos.png" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Galleteritos</h3>
