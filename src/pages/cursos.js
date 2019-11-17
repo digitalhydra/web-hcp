@@ -26,15 +26,15 @@ const Recetas = () => {
                   <h3 className="font-bold font-serif text-3xl text-center">Curso basico de fondant, tema Navidad</h3>
                 </a>
                 <a href="/downloads/galleteritos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
-                  <ImageProvider src="curso-galleteritos.jpeg" className="h-full rounded" />
+                  <ImageProvider src="taller-galleteritos.jpeg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Galleteritos</h3>
                 </a>
-                <a href="/downloads/galleteritos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
-                  <ImageProvider src="curso-pasteleritos.jpeg" className="h-full rounded" />
+                <a href="/" className="w-full md:w-1/2 lg:w-1/2 p-4">
+                  <ImageProvider src="taller-pasteleritos.jpeg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Pasteleritos</h3>
                 </a>
-                <a href="/downloads/galleteritos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
-                  <ImageProvider src="curso-padres-hijos.jpeg" className="h-full rounded" />
+                <a href="/" className="w-full md:w-1/2 lg:w-1/2 p-4">
+                  <ImageProvider src="taller-padres-hijos.jpeg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Padres e Hijos</h3>
                 </a>
                 <div className="w-full md:w-1/2 lg:w-1/2 p-4">
