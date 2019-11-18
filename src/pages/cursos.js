@@ -33,7 +33,7 @@ const Recetas = () => {
                   <ImageProvider src="taller-pasteleritos.jpeg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Pasteleritos</h3>
                 </a>
-                <a href="/" className="w-full md:w-1/2 lg:w-1/2 p-4">
+                <a href="/curso-padres-hijos.pdf" className="w-full md:w-1/2 lg:w-1/2 p-4">
                   <ImageProvider src="taller-padres-hijos.jpeg" className="h-full rounded" />
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Padres e Hijos</h3>
                 </a>
