@@ -45,6 +45,7 @@ const Header = ({ className, isInternal }) => {
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/cotizaciones">Cotizaciones</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/cursos">Cursos</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/recetas">Recetas</Link>
+          <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3" to="/pagos">Pagos</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3 hidden" to="/faq">Preguntas</Link>
           <Link className="text-secondary hover:underline hover:text-primary leading-snug text-xl mr-3 hidden" to="/contact">Contacto</Link>
         </div>}
