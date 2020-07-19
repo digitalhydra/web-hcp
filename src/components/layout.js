@@ -12,6 +12,7 @@ const Layout = ({ headerClass, children, title, isInternal }) => {
     <>
       <SEO title={title}/>
       <Helmet>
+        <script data-ad-client="ca-pub-5224853986664567" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <body className="font-sans antialiased bg-gray-100" />
       </Helmet>
 
