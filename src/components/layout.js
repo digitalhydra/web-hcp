@@ -12,7 +12,6 @@ const Layout = ({ headerClass, children, title, isInternal }) => {
     <>
       <SEO title={title}/>
       <Helmet>
-      <script src="https://apis.google.com/js/platform.js"></script>
         <body className="font-sans antialiased bg-gray-100" />
       </Helmet>
 

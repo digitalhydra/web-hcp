@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-tailwind--serif`,
-        short_name: `serif`,
+        name: `HolyCupcakes.co`,
+        short_name: `HolyCupcakes`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#4dc0b5`,
