@@ -107,3 +107,16 @@
   -webkit-transform: skewY(-5deg);
   transform: skewY(-5deg);
 }
+.livestream-video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+  }
+.livestream-video iframe, .livestream-video object, .livestream-video embed {
+  
+  left: 0;
+  position: absolute;
+  top: 0;
+  }

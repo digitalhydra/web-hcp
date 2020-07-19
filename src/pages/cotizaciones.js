@@ -12,7 +12,7 @@ const Recetas = () => {
     <Layout headerClass="bg-white relative" isInternal title="Cotizaciones">
       <div className="min-h-internal">
         <PageBanner title="Cotizaciones" />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className=" mt-10 md:mt-20 content-between">
             <ul className="flex mb-6 w-full items-center justify-center">
               <li><a className="mx-3 text-center text-3xl text-primary" href="#cotizaciones">Cotizaciones</a></li>

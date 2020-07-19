@@ -12,7 +12,7 @@ const Recetas = () => {
     <Layout headerClass="bg-white relative" isInternal title="Cursos">
       <div className="min-h-internal">
         <PageBanner title="Cursos" />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className=" mt-10 md:mt-20 content-between">
             <div id="cotizaciones" className="mb-8 text-2xl">
               <p className="">Cursos vigentes actualmente</p>

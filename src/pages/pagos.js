@@ -10,7 +10,7 @@ const Recetas = () => {
     <Layout headerClass="bg-white relative" isInternal title="Metodos de Pagos">
       <div className="min-h-internal">
         <PageBanner title="Metodos de Pagos" />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className=" mt-10 md:mt-20 content-between">
             <div id="pagos" className="mb-8 text-2xl">
               <h1 className="text-center text-4xl mb-3 font-bold text-primary">

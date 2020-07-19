@@ -11,7 +11,7 @@ const Recetas = ({ data }) => {
     <Layout headerClass="bg-white relative" isInternal title="Recetas">
       <div className="min-h-internal">
         <PageBanner title="Recetas" />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4">
           <div className="flex flex-wrap mt-10 md:mt-20 content-between">
             {recetas.map(({ node }) => (
               <RecetaItem
