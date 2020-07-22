@@ -50,7 +50,7 @@ const Recetas = () => {
                   <h3 className="font-bold font-serif text-3xl text-center">Taller Cupcakes navideños</h3>
                 </div>
               </div>
-              <div class="sharethis-inline-share-buttons"></div>
+              <div className="sharethis-inline-share-buttons"></div>
               </div>
           </div>
         </div>
